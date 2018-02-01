@@ -1,0 +1,176 @@
+/* CSS Document */
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+*/
+
+body	{ background-image:url(../Images/BlueBackgroundMulti2.png);
+		background-repeat:repeat; font-family: Arial, Helvetica, sans-serif; }
+		
+h1, h2, h3	{font-family:'Open Sans Condensed', Arial, Helvetica, sans-serif;}
+h1	{}
+h2	{}
+		
+#wrapper	{ width:900px; margin:10px auto;
+			padding:0 15px; background-color:#FFFFFF; }
+			
+#top	{ }
+#logo	{float:left;margin:50px 0 20px 0; }
+
+#call_me	{ float:right;margin:60px 45px 20px 0;Width:150px;Height:92px; }
+#call_me h3 { font-size:19px }
+#call_me span	{ color:#0083C6 }
+
+#top_extra	{float:right; margin:80px 50px 20px 0; Height:92px }
+#top_extra ul li	{ display:inline;list-style-type:none; text-decoration:none; font-weight:bold; }
+
+#top_extra a:link	{ text-decoration:none; font-weight:bold; color:#000000; }
+#top_extra a:visited	{ text-decoration:none; font-weight:bold; color:#000000; }
+#top_extra a:active	{ text-decoration:none; font-weight:bold; color:#000000; }
+#top_extra a:hover	{ text-decoration:none; font-weight:bold; color:#000000; }
+#top_extra a:focus	{ text-decoration:none; font-weight:bold; color:#000000; }
+/* ---------------------------------------Top Navigation CSS----------------------------------------*/
+#top_nav  { clear:both;}
+#top_nav	{background-color:#FFFFFF; border-top:1px solid #000000; border-bottom:1px solid #000000}
+
+#top_nav ul {list-style-type:none; padding:0; 
+			margin:0; position:relative;}
+#top_nav ul li	{ display:inline-block; font-weight:bold; }
+
+#top_nav ul li a:link			{ display:block; padding:15px; text-decoration:none;color:#000000; }
+#top_nav ul li a:visited		{ text-decoration:none;color:#000000; }
+#top_nav ul li a:active		{ text-decoration:none;color:#0083C6; }
+#top_nav ul li a:hover		{ color:#0083C6; }
+#top_nav ul li a:focus		{ color:#0083C6; }
+
+#top_nav ul li img	{ vertical-align:middle; padding-left:4px }
+
+/* ----------------------------------------Banner Image CSS-----------------------------------------*/
+
+#banner	{margin-top:10px;}
+
+/*----------------------------------------------------------------------------------------------------                                             Start subnav*/
+#top_nav ul li:hover ul	{display:block;}
+#top_nav ul ul	{display:none; position:absolute;background-color:#FFFFFF;
+				 border:1px solid #000000; border-top:0px; min-width:150px;}
+#top_nav ul ul li	{display:block; border-top:1px dotted #000000; font-weight:100}
+
+#top_nav ul ul li a:link		{ color:#000000; }									 
+#top_nav ul ul li a:visited		{ color:#000000; }
+#top_nav ul ul li a:active		{ color:#0083C6; }
+#top_nav ul ul li a:hover		{ color:#0083C6; }
+#top_nav ul ul li a:focus		{ color:#0083C6; }
+
+
+
+
+
+
+/*                                              End subnav                                           ----------------------------------------------------------------------------------------------------*/
+#content_Main h1	{padding-bottom:20px;border-bottom:1px solid #000000;}
+
+#content	{ padding:0;margin:0;float:left; width:580px; }
+#content h1	{ Color:#263575;				 }
+#content h2	{ Color:#263575; }
+#content p	{ font-size:13px; line-height:180%; }
+
+#content_secondary	{ padding:0;margin:0;float:right;width:270px; }
+#content_secondary .sm_globe {padding-left:3px}
+.indentless			{padding-left:15px}
+#content_secondary h2	{ Color:#263575; }
+#content_secondary p	{ font-size:12px; line-height:160%; }
+#content_secondary li	{ line-height:180%; }
+
+#box1	{ width:265px;float:left;margin-right:40px; }
+#box 2	{ width:265px;float:left; }
+
+#social_media_icons			{ }
+#social_media_icons	ul 		{ list-style-type:none; margin:25px 0 0 10px;padding:0px;}
+#social_media_icons	ul li	{ display:inline; padding:0px;margin:0px}
+#social_media_icons	ul li a:hover img	{ -moz-transform:scale(1.2); -webkit-transform:scale(1.2);-o-transform:scale(1.2) }
+
+
+/* ----------------------------------------Footer Area CSS------------------------------------------*/
+
+#footer 	{ clear:both;;padding:5px 0px 5px 0px;
+				border-top:1px #000000 solid; }
+#footer p	{ text-align:center; font-size:12px; font-weight:bold }
+
+
+/*  ------------------------------------------------------------------------------------------------------                                 This is the styling for contact form*/
+
+#contact_form ol li 	{ list-style-type:none }
+.input					{ display:block; width:350px; padding:5px; }
+label					{ display:block; margin-top:15px }
+textarea				{ height:50px; }	
+.submit_button			{display:block; width:100px; padding:5px 0px; margin:10px 0px}
+#contact_par			{ padding-left:40px; border-bottom:1px solid #000000 }
+#alt_img	{float:left}
+#alternative_contact h1	{padding-left:20px}
+#alternative_contact ul li img { position:relative;top:2px}
+#alternative_contact a { color:#03A4F2 }
+#alternative_contact a:link,visited { color:#00A3E8; text-decoration:none }
+#alternative_contact a:hover { color:#0083C6; text-decoration:underline }
+
+#alternative_contact ul	{ list-style-type:none; }
+
+/* -------------------------------------Achievements Page CSS---------------------------------------*/
+
+#ach_box1 	{ width:135px;float:left;position:}
+#ach_box2 	{ width:135px;float:left;position:}
+#ach_box3 	{ width:135px;float:left;position:}
+#ach_box4 	{ width:135px;float:left;position:}
+.ach_head 	{ text-align:center; }
+.ach_div	{padding-right:10px}
+
+#content_selector a	{ text-decoration:none;}
+#content_selector  a:hover img { -moz-transform:scale(1.2); -webkit-transform:scale(1.2);-o-transform:scale(1.2) }
+
+#content_secondary a:link, visited		{ font-weight:bold; text-decoration:none; color:#000000 }
+#content_secondary a:visited		{ font-weight:bold; text-decoration:none; color:#000000 }
+#content_secondary a:hover,active,focus	{ font-weight:bolder; text-decoration:none; color:#333333 }
+
+/* ---------------------------------------About Me Page CSS-----------------------------------------*/
+.abt_h2		{ width:500px;padding:8px 0px; border-bottom:1px dotted #000000; border-top:1px dotted #000000}
+.abt_img	{float:left; padding-right:15px; }
+
+/* ---------------------------------------Projects Page CSS-----------------------------------------*/
+
+.prod_box {margin-bottom:50px; border-bottom:2px dashed #0083C6; }
+
+.prod_box a:link	{text-decoration:none; color:#000000;}
+.prod_box a:visited {text-decoration:none; color:#000000;}
+.prod_box a:hover	{text-decoration:none; color:#333;}
+.prod_box a:active 	{text-decoration:none; color:#333;}
+
+#prod1 {}
+#prod2 {padding-top:0px; margin-top:-35px}
+#prod3 {padding-top:0px; margin-top:-35px}
+.prod_box img {float:left; padding-right:10px}
+.prod_box h4 {margin-top:0px}
+
+/* ---------------------------------------Database Page CSS-----------------------------------------*/
+
+.dtb_box img	{ float:left; margin-right:10px }
+
+/* ---------------------------------------DofE Gallery-----------------------------------------*/
+
+#duke_gallery ul li { display:inline;margin-right:7.5px;}
+#duke_gallery img {border:2px solid #263575}
+#duke_gallery ul {margin-left:0px; padding-left:0px}
+
+/* ---------------------------------------Arjana's Page-----------------------------------------*/
+
+#aj_map iframe {border: 5px #000000 solid}
+
+/* not my own code spoilers box */
+
+.spoilerbutton {display:block;margin:5px 0;}
+.spoiler {overflow:hidden;background: #f5f5f5;}
+.spoiler > div {-webkit-transition: all 0.2s ease;-moz-transition: margin 0.2s ease;-o-transition: all 0.2s ease;transition: margin 0.2s ease;}
+.spoilerbutton[value="Play Box Heads"] + .spoiler > div {margin-top:-100%;}
+.spoilerbutton[value="Hide Game"] + .spoiler {padding:5px;} 
+
+#content2	{ padding:0;margin:0;float:left; width:900px; }
+.sp_cont	{ align-self:center; align-content:center; align-items:center; text-align:center }
